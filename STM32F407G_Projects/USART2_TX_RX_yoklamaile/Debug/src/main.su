@@ -1,0 +1,4 @@
+main.c:40:5:main	16	static
+main.c:138:6:bekle	24	static
+main.c:150:6:EVAL_AUDIO_TransferComplete_CallBack	16	static
+main.c:156:10:EVAL_AUDIO_GetSampleCallBack	4	static

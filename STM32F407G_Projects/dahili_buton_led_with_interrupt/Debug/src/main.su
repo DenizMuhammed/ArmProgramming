@@ -1,0 +1,10 @@
+core_cm4.h:1452:22:NVIC_EnableIRQ	16	static
+core_cm4.h:1535:22:NVIC_SetPriority	16	static
+main.c:65:5:main	8	static
+main.c:102:6:PAPD_ayar	4	static
+main.c:113:6:Peripheral_Interrupt_ayar	4	static
+main.c:120:6:NVIC_ayar	8	static
+main.c:126:6:bekle	24	static
+main.c:133:6:EXTI0_IRQHandler	4	static
+main.c:142:6:EVAL_AUDIO_TransferComplete_CallBack	16	static
+main.c:147:10:EVAL_AUDIO_GetSampleCallBack	4	static
