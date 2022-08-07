@@ -90,12 +90,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+#define Mavi LD6_Pin
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_GPIO_WritePin(LD6_GPIO_Port, LD6_Pin, GPIO_PIN_RESET);
+	  // Board uzerindeki mavi LED 1 sn araliklarla yanip sonecektir:
+	  HAL_GPIO_WritePin(LD6_GPIO_Port, Mavi, GPIO_PIN_RESET);
 	  HAL_Delay(1000);
-	  HAL_GPIO_WritePin(LD6_GPIO_Port, LD6_Pin, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(LD6_GPIO_Port, Mavi, GPIO_PIN_SET);
 	  HAL_Delay(1000);
 
 
